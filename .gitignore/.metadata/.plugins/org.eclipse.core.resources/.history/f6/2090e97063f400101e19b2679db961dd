@@ -1,0 +1,9 @@
+package in.voting.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import in.voting.models.Poll;
+
+public interface PollRepository extends JpaRepository<Poll, Long> {
+
+}

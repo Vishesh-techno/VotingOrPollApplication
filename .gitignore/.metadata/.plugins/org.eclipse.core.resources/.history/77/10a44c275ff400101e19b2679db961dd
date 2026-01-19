@@ -1,0 +1,7 @@
+spring.application.name=votingapplication
+
+spring.datasource.url=localhost:
+spring.datasource.username=root
+spring.datasource.password=Vivoy83@
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=

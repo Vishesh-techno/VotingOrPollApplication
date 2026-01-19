@@ -1,0 +1,5 @@
+package in.voting.services;
+
+public class PollService {
+
+}

@@ -1,0 +1,11 @@
+package in.voting.models;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class OptionVote {
+	private String option;
+	private Long voteCount = 0L;
+}

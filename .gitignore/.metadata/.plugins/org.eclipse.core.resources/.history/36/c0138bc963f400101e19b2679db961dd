@@ -1,0 +1,17 @@
+package in.voting.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import in.voting.models.Poll;
+import in.voting.repository.PollRepository;
+
+public class PollService {
+	
+	@Autowired
+	private PollRepository pollRepository;
+	
+	public Poll createPoll(Poll poll) {
+		return pollRepository.save(poll);
+	}
+
+}

@@ -1,0 +1,26 @@
+package in.voting.services;
+
+import org.springframework.stereotype.Service;
+
+import in.voting.models.Poll;
+import in.voting.repository.PollRepository;
+
+@Service
+public class PollService {
+
+	private PollRepository pollRepository;
+	
+	public PollService(PollRepository pollRepository) {
+		this.pollRepository = pollRepository;
+	}
+
+
+	public Poll createPoll(Poll poll) {
+		return pollRepository.save(poll);
+	}
+	
+	public Poll getAllPolls(Poll poll) {
+		return pollRepository.findAll(poll);
+	}
+
+}

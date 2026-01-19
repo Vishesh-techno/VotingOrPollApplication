@@ -1,0 +1,8 @@
+package in.voting.models;
+
+public class Poll {
+	
+	private Long id;
+	private String question;
+
+}

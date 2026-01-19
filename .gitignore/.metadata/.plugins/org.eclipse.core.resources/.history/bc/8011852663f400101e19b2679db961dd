@@ -1,0 +1,11 @@
+package in.voting.services;
+
+import in.voting.models.Poll;
+
+public class PollService {
+	
+	public Poll createPoll(Poll poll) {
+		
+	}
+
+}
